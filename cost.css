@@ -1,0 +1,85 @@
+td {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+tr.noborder td {
+  border: 0;
+}
+
+label {
+	font-weight: bold;
+}
+
+.container {
+	margin: 100px auto;
+}
+
+.radio {
+	font-weight: normal;
+}
+
+.img {
+  max-width: 75%;
+  height: auto;
+  display: block;
+}
+
+.card {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.btn .btn-md {
+	color: gray;
+}
+
+.popover{
+    width: 400%; /* Max Width of the popover (depending on the container!) */
+}
+
+.form-row{
+	padding: 5px;
+}
+
+#countin #countout {
+	color: gray;
+}
+
+#add {
+	color: green;
+}
+
+#comp {
+	color: red;
+}
+
+/* DEMO STYLES */
+/* PROGRESS CIRCLE COMPONENT */
+.circliful {
+    margin:auto;
+    position: relative; 
+}
+
+.circle-text, .circle-info, .circle-text-half, .circle-info-half {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+}
+
+.circle-info, .circle-info-half {
+	color: #999;
+}
+
+.circliful .fa {
+	margin: -10px 3px 0 3px;
+	position: relative;
+	bottom: 4px;
+}
